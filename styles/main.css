@@ -1155,5 +1155,8 @@ header {
 
 .text--small {
   font-size: .75rem; }
+  .margin-top-medium{
+    margin-top: 10%;
+  }
 
 /*# sourceMappingURL=main.css.map */
