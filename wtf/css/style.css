@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.search-destination-btn {
+	border-radius: 30px;
+    padding: 10px 37px;
+    background-color: white !important;
+    margin-left: 20px;
+    color:black;
+}
+.your-des-font-size {
+	font-size: 1.5rem !important;
+}
+.logo-padding {
+	padding: 4px;
+}
+.xs-logo {
+	margin-left: 48px;
+    margin-top: 3px;
+}
+.logo-margin {
+	margin-top: 18%;
+}
+.card-title-text-color {
+	color: #999999;
+}
+.margin-none {
+	margin: 0 !important;
+}
+#flyForm input[type="text"],label {
+	color: white !important;
+}
+.line-break {
+	border-right: 2px solid #bab2b2;
+    line-height: 25px;
+}
+.arrow-icon {
+	width: 1.4em;
+    height: 1.4em;
+    border-right: 0.3em solid #9f9a9a;
+    border-top: 0.3em solid #9f9a9a;
+    transform: rotate(45deg);
+}
+.black-color {
+    background-color: #404042 !important;
+}
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+
+#loader{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 99999;
+    opacity:0.34;
+    background-color:grey;
+}
+#loader:after, body.pageload:after{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    content: '';
+    background-image: url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif");      
+    background-repeat: no-repeat;
+    background-position: center  center;
+    height: 100px;
+    width: 100px;
+    margin: -35px 0 0 -35px;
+    background-color: #fff; 
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+    box-shadow:0 0 15px #b4c4ea;
+    -moz-box-shadow:0 0 15px #b4c4ea;
+    -webkit-box-shadow:0 0 15px #b4c4ea;
+    z-index: 10;
+}
+
+.footer-custom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+@font-face {
+  font-family: "futura";
+  src: local(futura medium), url("../fonts/futura/futura_medium_bt.ttf") format("ttf");
+  font-weight: 100;
+}
+body {
+  font-family: futura !important;
+}
+.search-bar-margin-top {
+    margin-top: 15px;
+}
+.content-padding {
+    padding-bottom: 37px;
+    position: relative;
+}
+
+
+/*Mobile css*/
+
+.xs-search-des {
+    padding: 6px 10px !important;
+}
+.xs-content-title {
+    font-size: 18px !important;
+    margin-top: -9px;
+}
+.xs-logo-margin {
+    margin-top: 58%;
+}
+.xs-arrow-icon {
+    width: 1.0em !important;
+    height: 1.0em !important;
+}
+.search-fix {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    left: 9px;
+    top: 10%;
+}
+.xs-margin-top-content {
+    margin-top: 6rem;
+}
+.xs-search-input {
+    padding-left: 3rem !important;
+}
