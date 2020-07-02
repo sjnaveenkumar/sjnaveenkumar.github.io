@@ -1,14 +1,6 @@
- [
-    {
-        "userId": 1,
-        "id": 1,
-        "completed": false,
-        "title": "delectus aut autem"
-    },
-    {
+{
         "userId": 2,
         "id": 2,
         "completed": true,
         "title": "You're Done"
-    }
-]
+}
